@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Applicant Dashboard</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Visa Application System</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Applications</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#" class="logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">New Application</a></li>
+            <li><a href="#">My Applications</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Help Center</a></li>
+        </ul>
+    </aside>
+    <main>
+        <section class="welcome">
+            <h1>Welcome, [Applicant Name]!</h1>
+            <div class="summary-cards">
+                <div class="card">Applications Submitted: [Number]</div>
+                <div class="card">Applications in Progress: [Number]</div>
+                <div class="card">Notifications: [Number]</div>
+            </div>
+        </section>
+        <section class="quick-actions">
+            <button>Start New Application</button>
+            <button>Upload Documents</button>
+            <button>Check Application Status</button>
+        </section>
+        <section class="application-status">
+            <h2>Application Status Overview</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Application ID</th>
+                        <th>Type of Visa</th>
+                        <th>Date Submitted</th>
+                        <th>Current Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dynamic rows will be inserted here -->
+                </tbody>
+            </table>
+        </section>
+        <section class="notifications">
+            <h2>Recent Notifications</h2>
+            <ul>
+                <!-- Dynamic notifications will be inserted here -->
+            </ul>
+        </section>
+        <section class="profile-summary">
+            <img src="profile.webp" alt="Profile Picture" class="profile-picture">
+            <div class="personal-details">
+                <p>Name: [Applicant Name]</p>
+                <p>Email: [Email]</p>
+                <p>Phone: [Phone Number]</p>
+            </div>
+            <button>Edit Profile</button>
+        </section>
+    </main>
+    <footer>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact Us</a>
+        <div class="social-media">
+            <!-- Social media icons -->
+        </div>
+    </footer>
+</body>
+</html>
